@@ -1,3 +1,30 @@
 h1 {
     color: brown;
+    font-size: 20px;
+}
+#Identificators {
+    display: inline-block;
+    background-color: blue;
+    background-size: 20px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+
+    color: aliceblue;
+    box-sizing: border-box;
+    border: solid;
+}
+p.classes {
+    color:red;
+    background-color: blue;
+    font-size: 30px;
+    background-size: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+div p {
+    text-align: center;
+    font-style: italic;
+    border: solid;
+    border-radius: 10px;
 }
