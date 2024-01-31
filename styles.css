@@ -27,4 +27,26 @@ div p {
     font-style: italic;
     border: solid;
     border-radius: 10px;
+    color: blue;
+}
+.text-color {
+    color: red;
+}
+
+.border {
+    border: solid;
+    border-radius: 15px;
+}
+
+ul > li {
+    color: burlywood;
+    font-style: italic;
+}
+
+ul {
+    margin-top:50px;
+}
+
+h2 + a {
+    color: yellow;
 }
