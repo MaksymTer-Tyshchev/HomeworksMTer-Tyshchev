@@ -50,3 +50,21 @@ ul {
 h2 + a {
     color: yellow;
 }
+
+h3 ~ a {
+    color: red;
+    text-align: center;
+}   
+
+h4[title] { 
+    color: blue;    
+}
+ 
+h5[title="text-color"] {
+    color: red;
+    border: solid;
+    border-radius: 15px;
+    border-style: dashed;
+    text-align: center;
+    size: 20px;
+}
