@@ -4,7 +4,45 @@
     padding: 0;
 }
 
-#leonardo {
-    display: block;
+#Cards {
     
+    height: 600px;
+    width: 800px;
 }
+
+.cards {
+    display: inline-block;
+    position: relative;
+    background-color: rgba(126, 126, 128, 0.659);
+    margin: 25px 25px 25px 25px;
+    width: 200px;
+    height: 226px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+    width: 100px;
+    height: 113px;
+    background-color: black;
+    margin-left: 25%;
+    margin-top: 10%; ; 
+    object-fit: cover;
+    object-position: top;
+}
+
+.title {
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+.cardtext {
+    color: red;
+    text-align: center;
+}
+
+
