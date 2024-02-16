@@ -1,35 +1,38 @@
 * {
     box-sizing: border-box;
     
-    
 }
 
-.container {
-    
+
+
+.container { 
     position: absolute;
     width: 100%;
     text-align: center;
+    
     
 }
 
 #Cards {
     display: inline-block;
     text-align: center;
-    
+   top: 50%; 
     width: 100%;
     position: relative;
     min-width: 200px;
     height: 100%;
-    max-width: 650px;
+    max-width: 800px;
+    font-size: 0px;
     
 }
 
 .cards {
+    margin: 25px;
     display: inline-block;
     vertical-align: middle;
     
     position: relative;
-    background-color: rgba(126, 126, 128, 0.659); 
+    background-color: rgba(184, 184, 193, 0.332); 
     width: 200px;
     min-height: 226px;
     
@@ -68,17 +71,22 @@ img {
 }
 
 .title {
-    margin-top: 10px;
+    font-size: 20px;
+    
+    margin-top: 30px;
     color: black;
     text-align: center;
-    font-style: italic;
+    
 }
 
 .cardtext {
-    margin: 10px;
-    color: red;
+    font-size: 15px;
+    margin: 30px;
+    padding-bottom: 10px;
+    color: rgb(13, 9, 9);
     text-align: center;
     overflow: hidden;
+    
 }
 
 
