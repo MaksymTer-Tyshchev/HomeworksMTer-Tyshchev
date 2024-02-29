@@ -35,7 +35,7 @@
                         </label>
                     </div>
                     <div class="input-row"><label for="marks">Марка Авто</label>
-                        <select name="CarMarks" id="marks">
+                        <select name="CarMarks" id="marks"  >
                             <option selected disabled>Вибрати</option>
                             <option value="toyota">Toyota</option>
                             <option value="BMW">BMW</option>
@@ -54,8 +54,107 @@
                             <option value="Америка">Америка</option>
                         </select>
                     </div>
+                    <div class="input-row">
+                        <h4>Ціна</h4>
+                        <label>
+                            <span>Від</span> 
+                            <input type="number" name="pricefrom">
+                        </label>
+                        <label>
+                            <span>До</span> 
+                            <input type="number" name="priceto">
+                        </label>
+                    </div>
+                    <div class="input-row">
+                        <h4>Рік</h4>
+                        <label>
+                            <span>Від</span> 
+                            <input type="date" name="yearfrom">
+                        </label>
+                        <label>
+                            <span>До</span> 
+                            <input type="date" name="yearto">
+                        </label>
+
+                    </div>
+                    <div class="input-row">
+                        <label>
+                            <input type="checkbox" checked name="quality1" value="Crash">
+                            <span>Бита</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" checked name="quality2" value="Notfordriving">
+                            <span>На запчастини</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" checked name="quality3" value="Not crashed">
+                            <span>Не бита не крашена</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" checked name="quality4" value="New">
+                            <span>Нова</span>
+                        </label>
+                    </div>
+                    <div class="input-row">
+                        <h3>Тип Палива</h3>
+                        <label>
+                            <span>Дизель</span>
+                            <input type="checkbox" name="TypeOfFuel1" value="Dizel">
+                        </label>
+                        <label>
+                            <span>Бензин</span>
+                            <input type="checkbox" name="TypeOfFuel2" value="Benz">
+                        </label>
+                        <label>
+                            <span>Газ-Бензин</span>
+                            <input type="checkbox" name="TypeOfFuel3" value="Gas-Benz">
+                        </label>
+                    </div>
+                    <div class="input-row">
+                        <h4>Тип Коробки передач</h4>
+                        <label>
+                            <span>Автомат</span>
+                            <input type="radio" name="TypeofBox" value="auto">
+                        </label>
+                        <label>
+                            <span>Механіка</span>
+                            <input type="radio" name="TypeofBox" value="mech">
+                        </label>
+                    </div>
+                    <div class="input-row">
+                        <h4>Колір</h4>
+                       <label>
+                        <span>Виберіть Колір</span>
+                        <input type="color" name="CarColor">
+                       </label>
+                    </div>
+                    <div class="input-row">
+                        <h4>Додатковий комфорт</h4>
+                        <label>
+                            <input type="checkbox" checked name="comfort1" value="LeatherSalon">
+                            <span>Шкіряний Салон</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" checked name="comfort2" value="BluetoothMusic">
+                            <span>Музика через блютуз</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" checked name="comfort3" value="Touchless">
+                            <span>Безключовий доступ</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" checked name="comfort4" value="Spoiler">
+                            <span>Спойлер</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <button type="submit">Фильтровать</button>
+                    </div>
+        
                 </form>
             </div>
+            
         </section>
     </main>
     <footer class="footer">
