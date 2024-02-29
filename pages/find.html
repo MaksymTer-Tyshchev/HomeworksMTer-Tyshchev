@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/./css/styles.css">
+    <title>Car Shop Registation</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section>
+            <div id="FindCar">
+                <h2>Find your car</h2>
+                <form action="https://fom.in.ua/echo" name="Email" method="get">
+                    <div class="input-row">
+                        <h4>Тип Кузова</h4>
+                        <label>
+                            <input type="checkbox" checked name="type1" value="sedan">
+                            <span>Седан</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" checked name="type2" value="univesal">
+                            <span>Універсал</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" checked name="type3" value="hatch">
+                            <span>Хечбек</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" checked name="type4" value="crossover">
+                            <span>Кросовер</span>
+                        </label>
+                    </div>
+                    <div class="input-row"><label for="marks">Марка Авто</label>
+                        <select name="CarMarks" id="marks">
+                            <option selected disabled>Вибрати</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Audi">Audi</option>
+                            <option value="Porsche">Porsche</option>
+                            <option value="Tesla">Tesla</option>
+                        </select>
+                    </div>
+                    <div class="input-row"><label for="country">Країна Виробника</label>
+                        <select name="Country" id="country">
+                            <option selected disabled>Вибрати</option>
+                            <option value="Ukraine">Україна</option>
+                            <option value="Німечина">Німечина</option>
+                            <option value="Японія">Японія</option>
+                            <option value="Італія">Італія</option>
+                            <option value="Америка">Америка</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
