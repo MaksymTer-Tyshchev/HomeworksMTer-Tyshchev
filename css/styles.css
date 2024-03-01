@@ -1,0 +1,19 @@
+table {
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+th {
+    border:  solid;
+   
+}
+td {
+    border:  solid;
+}
+tr {
+    border: solid;
+}
+
+thead {
+    background-color:blue;
+}

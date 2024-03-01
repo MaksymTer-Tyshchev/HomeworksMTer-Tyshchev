@@ -5,38 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Template Page</title>
+    <title>Tables</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="menu">
-                    <li class="menu__item">
-                        <a href="/" class="menu__item-link">Home</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="./pages/page.html" class="menu__item-link">Page</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        
     </header>
     <main>
         <section>
             <div class="container">
-                <!-- Content -->
-                <h1 class="title">Home</h1>
-                <div>
-                    <img src="./images/Placehold.svg" alt="Placehold">
-                </div>
+                <h1>Tables</h1>
+                <table>
+                    <thead>
+                       <tr>
+                        <th colspan="4">My first Table</th>
+                        
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="background-color:blue;">First Cell</td>
+                        <td style="background-color:blue;">Second Cell</td>
+                        <td colspan="2" rowspan="3" style="background-color: yellow;">6 Cells Merged in one</td>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="background-color: yellow;">2 Cells Merged into one</td>
+                        
+                    </tr>
+                    <tr>
+                    <td rowspan="1" style="background-color: yellow;">1st cell <br> 3rd row</td>
+                    <td rowspan="1" style="background-color: yellow;">2nd cell <br> 3rd row</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="background-color: yellow;">Do you like tables?</td>
+                    </tr>
+                    
+                     </tbody>
+                    <tfoot>
+                       
+                    </tfoot>
+                </table>
             </div>
         </section>
     </main>
     <footer class="footer">
         <div class="container">
-            <h2>Footer</h2>
+            
         </div>
     </footer>
     <script src="./js/main.js"></script>
