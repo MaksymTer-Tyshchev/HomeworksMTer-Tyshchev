@@ -1,0 +1,158 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'GraphikLCG';
+    font-size: 15px;
+
+}
+ul li {
+list-style:none;
+margin-right: 0px;
+}
+.header {
+    background-color:white;
+    max-width: 100%;
+    border:solid;
+    height: 95px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding-top: 2%;
+   
+    
+}
+
+
+.nav {
+    margin-right: 0;
+    display: flex;
+    position: absolute;
+    width: 60%;    
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+
+
+.nav_item_link {
+    text-decoration: none;
+
+    color: black;
+}
+
+button {
+    border: none;
+    }
+
+button:focus {
+    box-shadow: 0 0 2px black;
+}
+
+
+
+.buttons { 
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right:10px;
+      
+    gap: 20px;
+  }
+
+  .button_link {
+  width: 120px;
+  height: 45px;
+  color: #fff;
+  background-color:#FF6336;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s linear;
+  }
+
+  .button_link:hover{
+    background-color: white;
+    color: #FF6336;
+    border: solid;
+  }
+
+ .button_link2 {
+ display: block;
+  width: 120px;
+  height: 45px;
+  background-color: #fff;
+  border: solid;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s linear;
+  }
+
+  .button_link2:hover {
+    background-color:black;
+    color: white;
+    border: black;
+  }
+
+  .section1 {
+    display: flex;
+    width: 1330px;
+    margin-top: 95px;
+    position: relative;
+    margin-right: auto;
+    height: 764px;
+    margin-left: auto;
+
+    
+  }
+
+  .section-header {
+    
+    margin-top: 32px;
+    width: 600px;
+    font-size: 2vw;
+    font-weight: 600;
+    -webkit-line-clamp:3;
+    
+  }
+
+  .section-text {
+    
+    width: 471px;
+    margin-top: 91px;
+    -webkit-line-clamp: 3;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    
+    
+  }
+
+  .section-img {
+    
+    
+    width: 700px;
+    height: 529px;
+   
+    margin-top: 0px;
+    margin-left: 0px;
+    justify-content: flex-end;
+  }
+
+  .section-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 58px;
+    gap:10px;
+    font-weight: 300;
+    
+  }
+
+  .button_link > .section-buttons   {
+    width: 120px;
+    height: 45px;
+  }
